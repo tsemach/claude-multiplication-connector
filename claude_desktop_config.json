@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "multiplication-server": {
+      "command": "/usr/local/bin/prompt_security/prompt_security_mcp",
+      "args": [
+        "/Users/tsemachm/Library/Application Support/Claude/claude_desktop_config.json",
+        "multiplication-server"
+      ],
+      "server": {
+        "command": "/Users/tsemachm/private/ai/claude-multiplication-connector/scripts/run-mcp-remote.sh",
+        "args": []
+      }
+    }
+  },
+  "preferences": {
+    "coworkWebSearchEnabled": true,
+    "coworkScheduledTasksEnabled": true,
+    "ccdScheduledTasksEnabled": true
+  }
+}
+
