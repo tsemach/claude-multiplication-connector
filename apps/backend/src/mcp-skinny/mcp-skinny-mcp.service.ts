@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { McpSkinnyMultiplicationService } from '../multiplication/mcp-skinny-multiplication.service';
+import { MultiplicationService } from '../multiplication/multiplication.service';
 import { Logger } from '@nestjs/common';
 
 /**
@@ -17,7 +17,7 @@ export class McpSkinnyMcpService {
   private readonly logger = new Logger(McpSkinnyMcpService.name);
 
   constructor(
-    private readonly multiplicationService: McpSkinnyMultiplicationService,
+    private readonly multiplicationService: MultiplicationService,
   ) {}
 
   /**

@@ -8,8 +8,12 @@
       ],
       "server": {
         "command": "/Users/tsemachm/private/ai/claude-multiplication-connector/scripts/run-mcp-remote.sh",
-        "args": []
+        "args": ["--debug"]
       }
+    },
+    "multiplication-server-direct": {
+      "command": "/Users/tsemachm/private/ai/claude-multiplication-connector/scripts/run-mcp-remote.sh",
+      "args": ["--debug"]
     }
   },
   "preferences": {
